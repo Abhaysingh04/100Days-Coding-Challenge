@@ -1,10 +1,10 @@
+#include<stdio.h>
+#include<ctype.h>
 
 
-#include <stdio.h>
-#include <ctype.h>
 
-int main()
-{
+  int main()
+ {
    char questions[][100] = {"1. What year did the C language debut?: ",
                             "2. Who is credited with creating C?:",
                             "3. What is the predecessor of C?: "};
@@ -36,9 +36,9 @@ int main()
       scanf("%c", &guess);
       scanf("%c"); //clear \n from input buffer
 
-      guess = toupper(guess);
+     
 
-      if(guess == answers[i])
+      if(guess = answers[i])
       {
          printf("CORRECT!\n");
          score++;
@@ -53,4 +53,5 @@ int main()
    printf("*********************\n");
  
    return 0;
-}
+ }
+
