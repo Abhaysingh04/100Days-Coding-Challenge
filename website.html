@@ -8,15 +8,15 @@
 
 body {
   font-family: Arial;
-  padding: 10px;
+  padding: 5px;
   background: #f1f1f1;
 }
 
 
 .header {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  background: white;
+  background: rgb(243, 237, 237);
 }
 
 .header h1 {
@@ -26,22 +26,39 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(25, 148, 255);
 }
 
+.SearchBar {
+  border-radius: 60px;
+
+
+
+
+
+
+}
+
+.Search{
+  background: transparent;
+
+
+
+
+}
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #00ffea;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 14px;
+  text-decoration: solid dotted aqua;
 }
 
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(255, 255, 139);
   color: black;
 }
 
@@ -52,25 +69,16 @@ body {
 }
 
 
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
+.Button {
+  background-color: aliceblue;
+
+
 }
-
-
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
 
 .card {
-  background-color: white;
+  background-color: rgba(237, 243, 244, 0.501);
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 
@@ -81,15 +89,7 @@ body {
 }
 
 
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1111px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
@@ -97,7 +97,7 @@ body {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1111px) {
   .topnav a {
     float: none;
     width: 100%;
@@ -111,7 +111,7 @@ body {
     
 
   <h1 style="color:rgb(72, 101, 208);">All Website</h1>
-  <p><h2> Welcome to my Website.</h2></p>
+  <p><h2> Welcome to Abhay Website.</h2></p>
 </div>
 
 <div class="topnav" style="text-align:center ;">
@@ -127,26 +127,40 @@ body {
 </div>
 
 <div class="row">
-  <div class="leftcolumn">
+  <div class="leftcolumn" style="width: 1000px; ;">
     <div class="card">
       
       <div class="SearchBar">
-        <form>
-         
-            
-            
-                        <input type="text" style="height: 40px; width: 500px;  "   placeholder=" Search...." required>
+        <form action="https://www.google.com/search" method="GET" style=" text-align: center;" ;">
+          <input type="text" name="q" placeholder="Search....." style="height: 40px;; width: 500px; background-color:azure ;">
+          <input type="Submit" value="Search" style="height: 40px; widht: 40px; background-color:cornsilk ">
         </form>
     </div>
     </div>
     <div class="card">
      
       <h3>Did you like this Webpage</h3>
-      <div class="fakeimg" style="height:200px; text-align: center;" ><h1> Thanking for visiting my Website</h1></div>
+      <div class="Button" style="height:200px; width: 500px; text-align: center;" ><button style="height: 200px;width: 1500px;;"> <h2> Google LLC (/ˈɡuːɡəl/ (listen)) is an American multinational technology company that focuses on search engine technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence,[9] and consumer electronics. It has been referred to as the "most powerful company in the world"[10] and one of the world's most valuable brands due to its market dominance, data collection, and technological advantages in the area of artificial intelligence.[11][12][13] It is considered one of the Big Five American information technology companies, alongside Amazon, Apple, Meta, and Microsoft.
+
+        Google was founded on September 4, 1998.
+
       
     </div>
+    <div>
+      
+
+
+
+
+
+
+
+    </div>
   </div>
-  
+  <script>
+
+
+ 
 
 
 
